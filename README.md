@@ -13,5 +13,5 @@ This is a Node Application that simulates purchasing from a retailer.  The Node 
 - TableFy
 
 
-![How to use the App](https://youtu.be/ZaYgF6jq_-k)
+![How to use the App](https://media.giphy.com/media/kifYf3998SFlmPjzoL/giphy.gif)
 
