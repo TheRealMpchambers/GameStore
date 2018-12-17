@@ -11,7 +11,7 @@ CREATE TABLE storefront(
     category_name VARCHAR(255) NOT NULL,
     price DECIMAL(7,2) NOT NULL,
     quantity_on_hand INT(10) default 0 NOT NULL
-    );
+);
 
 INSERT INTO storefront (item_name, category_name, price, quantity_on_hand)
 VALUES ("Zero Horizon Dawn", "Action Role Playing", 39.99, 10);
