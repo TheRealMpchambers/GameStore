@@ -15,3 +15,5 @@ This is a Node Application that simulates purchasing from a retailer.  The Node 
 
 ![How to use the App](https://media.giphy.com/media/kifYf3998SFlmPjzoL/giphy.gif)
 
+[YouTube Video Link](https://www.youtube.com/watch?v=ZaYgF6jq_-k&feature=youtu.be)
+
