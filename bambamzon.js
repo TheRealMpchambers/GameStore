@@ -16,7 +16,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "password",
+    password: "!D34thSt4r!",
     database: "bambamzon_DB"
 });
 
@@ -44,13 +44,25 @@ function pointOfSale() {
             {
                 name: "id",
                 type: "input",
-                message: "Please select the unique ID of the item you wish to purchase."
-
+                message: "Please select the unique ID of the item you wish to purchase.",
+                validate: function (value) {
+                    if (isNaN(value) === false) {
+                        return true;
+                    }
+                    return "Please enter an numeric ID value of the product you wish to purchase.";
+                    }
             },
+
             {
                 name: "units",
                 type: "input",
-                message: "Please indicate the number of items you wish to purchase."
+                message: "Please indicate the number of items you wish to purchase.",
+                validate: function (value) {
+                    if (isNaN(value) === false) {
+                        return true;
+                    }
+                    return "Please enter a numeric value.";
+                }
 
             }
         ]).then(function (input) {
